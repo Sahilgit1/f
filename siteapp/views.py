@@ -13,3 +13,5 @@ def practice(request):
     return render(request,"siteapp/practice.html")
 def jobs(request):
     return render(request,"siteapp/jobs.html")
+def homee(request):
+    return render(request,"siteapp/home.html")
